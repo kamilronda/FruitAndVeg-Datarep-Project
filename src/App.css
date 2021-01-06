@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+/* keeps the time to the right of the navbar */
+.navtime-right {
+  float: right!important;
+}
+
+/* adds shadow to the navbar and footer */
+.navbar {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+
+/* adds image and styling to the jumbotron located on the home page */
+.home-jumbotron {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1591184510259-b6f1be3d7aff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 100px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+.home-jumbotron h1, h2 {
+  
+  padding: 50px;
+}
+
+/* adds image and styling to the jumbotron located on the products page */
+.products-jumbotron {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1533167751327-4091607cecc5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 100px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+.products-jumbotron h1, h2 {
+  
+  padding: 50px;
+}
+
+/* adds shadow to the card entries on the products page  */
+.card {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
